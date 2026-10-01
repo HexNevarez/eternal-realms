@@ -17,7 +17,17 @@ your task to decide what constitutes a cheat and how it is detected.
 
 ## Getting the data
 
-The snapshot image and how to run it are added here when the dataset is published.
+The snapshot is a ready-to-run Postgres 16 image (about 5 GB). The data is already inside, so it starts in a
+few seconds and needs no restore step.
+
+```bash
+docker pull ghcr.io/hexnevarez/eternal-realms:latest
+docker run -d --name eternal-realms -p 5432:5432 ghcr.io/hexnevarez/eternal-realms:latest
+psql -h localhost -U candidate -d eternal_realms      # password: candidate
+```
+
+The `candidate` role is read only. The database `eternal_realms` has three schemas (`intake`, `game`, `ref`),
+described in the [data dictionary](docs/data-dictionary.md). Plan for about 6 GB of free disk space.
 
 ## What we ask
 
