@@ -53,6 +53,8 @@ One GitHub repository containing:
 - A report of cheaters - what players cheated - what cheats were found - what systems/mechanics appear to be vulnerable 
 - If found: take the most severe case and give a timeline of how the cheat happened
 - A recommendation of which vulnerable game mechanics they should patch next
+- Any anomalies you detected in the game play itself: behavior in the data that does not match the
+  rulebook or looks wrong for a working game, whether or not it is cheating, with the data that shows it
 
 ### Reports the data product must enable
 
