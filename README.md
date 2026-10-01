@@ -11,7 +11,7 @@ your task to decide what constitutes a cheat and how it is detected.
 
 ## What you receive
 
-- The Postgres snapshot in a Docker container (database only; you discover the structure)
+- The Postgres snapshot in a Docker container (database only; you discover the structure): `ghcr.io/hexnevarez/eternal-realms:latest`, run instructions in [Getting the data](#getting-the-data)
 - A full data dictionary of the snapshot: [docs/data-dictionary.md](docs/data-dictionary.md)
 - The game rulebook and the 2.1 patch notes: [docs/rulebook.md](docs/rulebook.md)
 
